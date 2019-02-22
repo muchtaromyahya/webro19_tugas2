@@ -1,0 +1,118 @@
+
+.imgside {
+    border-radius: 55px;
+    text-align: center;
+}
+table{
+  height: 140%;
+  width: 160%;
+  border: none;
+  background-color: white;
+  text-align: left;
+  float: right;
+  margin-top: 85%;
+}
+.kotak{
+  border: 2px;
+  color: white;
+  padding: 10px;
+  background-color: white;
+  overflow: auto;
+  height: 600px;
+  width: 800px;
+  text-align: left; 
+  margin-top: 10%;
+  margin-right:30px;
+  margin-left: 225px;
+}
+.imgutm{
+    margin-left: 25%;
+    margin-top: 25%;
+   background-color: aliceblue;
+   padding: 2%;
+   float: left;
+}
+nav{
+	color: white;
+	background:#006266;
+	height: 70px;
+	width: 100%;
+	position: fixed;
+	display: flex;
+}
+nav ul{
+	text-align: right;
+}
+nav ul li{
+	display: inline-block;
+}
+nav p{
+	font-size: 10px;
+}
+nav p, nav ul{
+	flex: 1;
+	padding: 10px;
+	font-size: 24px;
+}
+nav ul li a{
+	border-radius: 3px;
+	color: white;
+	padding : 5px 10px;
+}
+nav ul li a:hover {
+	background: white;
+	color: #006266;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+@media screen and (max-width: 992px) {
+	/* Here */
+	.col{
+		flex: 50%;	
+	}
+}
+@media screen and (max-width: 768px) {
+	/* And here to be specific */
+	.col{
+		flex: 100%;
+	}
+
+/*box*/
+.box{
+    width: 30%;
+    height: 20%;
+    background: white;
+}
