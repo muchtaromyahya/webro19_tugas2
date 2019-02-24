@@ -17,26 +17,25 @@ body {
 <body>
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a><img class="imgside"   src="foto 2.jpg" width="60%"> </a>
+    <a href="#option" ><img class="imgside"   src="foto 2.jpg" width="60%"> </a>
     <a href="#profile">Profile</a>
     <a href="#education">Education</a>
     <a href="#hobby">Hobby</a>
     <a href="#contact">Contact</a>
   </div>
 <nav> 
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span> 
-    <span><p>Muchtarom Yahya</p></span>
+  <span id="option" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span> 
+    <span id="judul">Muchtarom Yahya</span>
 
 </nav > 
-<div>
+<main>
     <div style="float: left;"> 
         <img src="YAHYA.jpg" width="60%" id="imgutm">
     </div>
-    <section id="profile">
-        <div class="kotak" style=" float: right;">
+        <div class="kotak" id="profile" style=" float: right;">
             <p>Muchtarom Yahya</p>
             <table >
-                <th colspan="3">Personal Information</th>
+                <th colspan="3">  Personal Information</th>
             <tr>
                 <td>Name</td>
                 <td> </td>
@@ -53,11 +52,10 @@ body {
                 <td>: Ampera Street 121 Sidareja Cilacap    </td>
             </tr>
             </table>
+               <footer id="kaki">
+                </footer>
         </div>
-    </section>
-    <section id="education">
-        <div class="kotak" style=" float: right;">
-            <p> </p>
+        <div class="kotak"  id="education" style=" float: right;">
             <table>
                 <th colspan="3">Education</th>
                 <br>
@@ -69,13 +67,13 @@ body {
             </tr>
 
             </table>
+               <footer id="kaki">
+                </footer>
         </div>
-    </section>
-    <section id="hobby">
-        <div class="kotak" style=" float: right;">
+        <div class="kotak" id="hobby" style=" float: right;">
             <table>
                 <th colspan="3">Hobby</th>
-             
+              <br> <br>
             <tr>
                 <td><img src="coding.png" width="140px"></td>
                 <td><img src="traveling.png" width="140px" ></td>
@@ -83,10 +81,10 @@ body {
                 </tr>
             
             </table>
+               <footer id="kaki">
+                </footer>
         </div>
-    </section>
-    <section id="contact">
-        <div class="kotak" style=" float: right;">
+        <div class="kotak" id="contact" style=" float: right;">
         <table>
             <p>Muchtarom Yahya</p>
             <th colspan="3">Contact</th>
@@ -110,11 +108,13 @@ body {
                 <td></td>
                 <td>: Muchtaromyahya@gmail.com</td>
             </tr>
-        </table>
+        </table>  
+               <footer id="kaki">
+    </footer>
         </div>
-    </section>
-</div>
-   
+      
+</main>
+
 
 </body>
 </html> 
